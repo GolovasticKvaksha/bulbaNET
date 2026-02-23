@@ -1,0 +1,36 @@
+html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя первая соцсеть</title>
+    <!-- Здесь мы подключим CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Вставь перед </body> -->
+<!--<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>-->
+	<body>
+
+    <div class="container">
+        <h1 class="glitch">Мой бложик</h1>
+        
+        	<div class="post-form">
+		<input type="text" id="nameInput" placeholder="Твой ник" maxlength="30">
+		<textarea id="postInput" placeholder="Чё думаешь? Напиши!" rows="3"></textarea>
+		<button onclick="addPost()">Опубликовать</button>
+		</div>
+		<div id="newsFeed" class="news-feed"></div>
+
+        <!-- Здесь будут появляться посты -->
+        <div id="newsFeed" class="news-feed">
+            <!-- Сюда JS будет добавлять посты -->
+        </div>
+    </div>
+
+    <!-- Здесь будет наш мозг (JavaScript) -->
+    <script src="script.js"></script>
+</body>
+</html>
