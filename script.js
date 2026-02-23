@@ -1,4 +1,4 @@
-const API_URL = 'https://bulba-net.vercel.app';
+const API_URL = 'https://bulba-net.vercel.app/api';
 
 // ===== 2. ПОТОМ функции =====
 
@@ -77,4 +77,5 @@ async function addPost() {
     console.error('Ошибка:', error);
     alert('Не удалось опубликовать пост');
   }
+
 }
